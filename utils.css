@@ -1,0 +1,56 @@
+div{
+  display: flex;
+}
+
+.text-center{
+  text-align: center;
+  /* change font to comic style*/
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  /* do something to make text  outstanding */
+  text-shadow: 2px 2px 4px #000000;
+  /* make a graidiant background colour */
+  /* background-image: linear-gradient(to right, #DB2700 , black); */
+  color: white;
+  
+  
+}
+
+.bg-red{
+  background-color: darkgray;
+  width: 300px;
+  /* make a shadow of the container */
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.9);
+  
+  background-image: url("Gojo.webp");
+  /* set image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* image blur */
+  background-blend-mode: darken;
+  opacity: 0.9;
+  
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.mx-auto{
+  margin: auto;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.items-center{
+  align-items: center;
+  /* display: grid;
+  justify-content: center;
+  align-content: stretch;
+  justify-items: center; */
+}
+

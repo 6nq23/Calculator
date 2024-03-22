@@ -1,0 +1,43 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-image: url("sukuna.webp");
+  /* set image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* image blur */
+  /* background-blend-mode: darken; */
+  /* opacity: 0.9; */
+}
+.button{
+  padding: 20px;
+  margin: 0 3px;
+  border: 3px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+  /* use gradian shadow of red-orange */
+  background-image: linear-gradient(#DB2700 , black);
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.9);
+  color: white;
+  font-weight: bold;
+  font-size: 19px;
+  
+}
+
+.row{
+  margin: 8px 0;
+  display: flex;
+  align-self: center;
+  flex-grow: initial;
+}
+
+.row input{
+  font-size: 20px;
+  margin: 0;
+  padding: 10px 0px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
